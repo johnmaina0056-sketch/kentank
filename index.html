@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>KENTANK FACTORY LTD </title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+<script>
+function sendToWhatsApp() {
+let name = document.getElementById("name").value;
+let phone = document.getElementById("phone").value;
+let message = document.getElementById("message").value;
+
+let text =
+"Hello KENTANK MAIN FACTORY,%0A" +
+"Name: " + name + "%0A" +
+"Phone: " + phone + "%0A" +
+"Message: " + message;
+
+let url = "https://wa.me/254717841567?text=" + encodeURIComponent(text);
+
+window.open(url, "_blank");
+}
+</script>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#f5f7fb;
+color:#222;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+header{
+background:#005baa;
+padding:18px 0;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:white;
+}
+
+.logo span{
+color:gold;
+}
+
+.
+
+.hero h1{
+font-size:58px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+border-radius:40px;
+font-weight:600;
+text-decoration:none;
+}
+
+.btn-primary{
+background:gold;
+color:#222;
+}
+
+.btn-whatsapp{
+background:#25D366;
+color:white;
+}
+
+section{
+padding:70px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-body{
+padding:20px;
+}
+
+.price{
+font-size:28px;
+font-weight:bold;
+color:green;
+}
+
+.float-whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#25D366;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+color:white;
+text-decoration:none;
+}
+
+.float-call{
+position:fixed;
+right:20px;
+bottom:95px;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#005baa;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+color:white;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<div class="logo">
+KENTANK <span> FACTORY LTD </span>
+</div>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h1>Premium Water Storage Tanks</h1>
+<p>15 Years Warranty • Triple Layer Protection</p>
+
+<a href="https://wa.me/254717841567?text=Hello%20I%20want%20to%20order%20a%20water%20tank"
+class="btn btn-primary">
+Call Now
+</a>
+<a href="https://wa.me/254717841567" class="btn btn-whatsapp">
+Order Now
+</a>
+
+</div>
+</section>
+<section id="products">
+<div class="container">
+
+<div class="section-title">
+<h2>Tank Price List</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<img src="t1.jfif">
+<div class="card-body">
+<h3>1,000 Litres Tank</h3>
+<div class="price">KSh 8,500</div>
+</div>
+</div>
+
+<div class="card">
+<img src="t2.jfif">
+<div class="card-body">
+<h3>2,000 Litres Tank</h3>
+<div class="price">KSh 14,500</div>
+</div>
+</div>
+
+<div class="card">
+<img src="t3.jfif">
+<div class="card-body">
+<h3>2,500 Litres Tank</h3>
+<div class="price">KSh 15,500</div>
+</div>
+</div>
+
+<div class="card">
+<img src="t4.jfif">
+<div class="card-body">
+<h3>3,000 Litres Tank</h3>
+<div class="price">KSh 18,500</div>
+</div>
+</div>
+
+<div class="card">
+<img src="t5.jfif">
+<div class="card-body">
+<h3>4,000 Litres Tank</h3>
+<div class="price">KSh 22,000</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section style="background:#eef6ff;">
+<div class="container">
+
+<div class="section-title">
+<h2>Why Choose KENTANK</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<div class="card-body">
+<h3>15 Years Warranty</h3>
+<p>Long-term factory-backed warranty.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-body">
+<h3>Triple Layer Technology</h3>
+<p>Strong, UV resistant and durable.</p>
+</div>
+</div>
+
+<div class="card">
+<div class="card-body">
+<h3>Factory Direct Prices</h3>
+<p>Buy direct and save more.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+<section style="background:#0b3d66;color:white;text-align:center;">
+<div class="container">
+
+<h2>Order Your Tank Today</h2>
+<p>Call or WhatsApp for delivery and orders.</p>
+
+<a href="https://wa.me/254717841567" class="btn btn-whatsapp">
+WhatsApp Us
+</a>
+
+<div class="inquiry-form">
+
+<h3>Send Inquiry</h3>
+
+<form onsubmit="sendToWhatsApp(); return false;">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="tel" id="phone" placeholder="Phone Number" required>
+
+<textarea id="message" rows="5" placeholder="Your inquiry (e.g. 5000L tank needed)" required></textarea>
+
+<button type="submit">Send Inquiry</button>
+
+</form>
+
+</div>
+<footer style="
+background:#06233c;
+color:white;
+text-align:center;
+padding:25px;
+">
+© 2026 KENTANK MAIN FACTORY
+</footer>
+
+<a href="tel:0717841567" class="float-call">
+☎
+</a>
+
+<a href="https://wa.me/254717841567"
+class="float-whatsapp">
+💬
+</a>
+
+</body>
+</html>
