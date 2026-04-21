@@ -3,11 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>KENTANK FACTORY LTD </title>
+<title>KENTANK FACTORY LTD</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-<style>
 <script>
 function sendToWhatsApp() {
 let name = document.getElementById("name").value;
@@ -15,9 +14,9 @@ let phone = document.getElementById("phone").value;
 let message = document.getElementById("message").value;
 
 let text =
-"Hello KENTANK MAIN FACTORY,%0A" +
-"Name: " + name + "%0A" +
-"Phone: " + phone + "%0A" +
+"Hello KENTANK MAIN FACTORY,\n" +
+"Name: " + name + "\n" +
+"Phone: " + phone + "\n" +
 "Message: " + message;
 
 let url = "https://wa.me/254717841567?text=" + encodeURIComponent(text);
@@ -25,6 +24,8 @@ let url = "https://wa.me/254717841567?text=" + encodeURIComponent(text);
 window.open(url, "_blank");
 }
 </script>
+
+<style>
 *{
 margin:0;
 padding:0;
@@ -59,8 +60,6 @@ color:white;
 .logo span{
 color:gold;
 }
-
-.
 
 .hero h1{
 font-size:58px;
@@ -159,6 +158,7 @@ font-size:28px;
 color:white;
 text-decoration:none;
 }
+
 .inquiry-form{
 margin-top:40px;
 max-width:500px;
@@ -187,14 +187,6 @@ border-radius:8px;
 border:1px solid #ccc;
 font-family:Poppins,sans-serif;
 font-size:14px;
-transition:0.3s;
-}
-
-.inquiry-form input:focus,
-.inquiry-form textarea:focus{
-border-color:#005baa;
-outline:none;
-box-shadow:0 0 0 2px rgba(0,91,170,0.1);
 }
 
 .inquiry-form button{
@@ -207,11 +199,6 @@ color:white;
 font-size:16px;
 font-weight:600;
 cursor:pointer;
-transition:0.3s;
-}
-
-.inquiry-form button:hover{
-background:#1ebe5d;
 }
 </style>
 </head>
@@ -221,26 +208,29 @@ background:#1ebe5d;
 <header>
 <div class="container">
 <div class="logo">
-KENTANK <span> FACTORY LTD </span>
+KENTANK <span>FACTORY LTD</span>
 </div>
 </div>
 </header>
 
 <section class="hero">
 <div class="container">
+
 <h1>Premium Water Storage Tanks</h1>
 <p>15 Years Warranty • Triple Layer Protection</p>
 
-<a href="https://wa.me/254717841567?text=Hello%20I%20want%20to%20order%20a%20water%20tank"
-class="btn btn-primary">
+<a href="tel:+254717841567" class="btn btn-primary">
 Call Now
 </a>
-<a href="https://wa.me/254717841567" class="btn btn-whatsapp">
+
+<a href="https://wa.me/254717841567?text=Hello%20I%20want%20to%20order%20a%20water%20tank"
+class="btn btn-whatsapp">
 Order Now
 </a>
 
 </div>
 </section>
+
 <section id="products">
 <div class="container">
 
@@ -289,6 +279,7 @@ Order Now
 <div class="price">KSh 24,500</div>
 </div>
 </div>
+
 <div class="card">
 <img src="t4.jfif">
 <div class="card-body">
@@ -296,6 +287,7 @@ Order Now
 <div class="price">KSh 27,500</div>
 </div>
 </div>
+
 <div class="card">
 <img src="t4.jfif">
 <div class="card-body">
@@ -303,6 +295,7 @@ Order Now
 <div class="price">KSh 32,500</div>
 </div>
 </div>
+
 <div class="card">
 <img src="t4.jfif">
 <div class="card-body">
@@ -310,10 +303,10 @@ Order Now
 <div class="price">KSh 45,500</div>
 </div>
 </div>
+
 </div>
 </div>
 </section>
-
 
 <section style="background:#eef6ff;">
 <div class="container">
@@ -346,8 +339,9 @@ Order Now
 </div>
 
 </div>
-
 </div>
+</section>
+
 <section style="background:#0b3d66;color:white;text-align:center;">
 <div class="container">
 
@@ -363,7 +357,6 @@ Order Now
 </a>
 
 <div class="inquiry-form">
-
 <h3>Send Inquiry</h3>
 
 <form onsubmit="sendToWhatsApp(); return false;">
@@ -381,10 +374,12 @@ Order Now
 </div>
 </div>
 </section>
+
+<footer style="text-align:center;padding:20px;">
 © 2026 KENTANK MAIN FACTORY
 </footer>
 
-<a href="tel:0717841567" class="float-call">
+<a href="tel:+254717841567" class="float-call">
 ☎
 </a>
 
